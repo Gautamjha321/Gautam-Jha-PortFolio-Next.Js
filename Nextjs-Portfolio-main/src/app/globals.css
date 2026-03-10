@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+  html,
+  body {
+    overscroll-behavior-y: contain;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  ::selection {
+    background-color: rgba(110, 231, 183, 0.25);
+    color: #fff;
+  }
+
+  .nav-item {
+    @apply px-4 py-1.5 rounded-full text-white/70 text-sm font-semibold hover:bg-white/10 hover:text-white transition duration-300;
+  }
+
+  .hero-ring {
+    @apply absolute inset-0 border top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full border-emerald-300/10;
+    box-shadow: 0 0 120px inset rgba(110, 231, 183, 0.06);
+  }
+}
+
+@layer utilities {
+  .container {
+    @apply lg:max-w-5xl;
+  }
+
+  .glow-emerald {
+    box-shadow: 0 0 40px -12px rgba(110, 231, 183, 0.35);
+  }
+
+  .card-glow {
+    box-shadow:
+      0 0 0 1px rgba(255, 255, 255, 0.08),
+      0 24px 48px -12px rgba(0, 0, 0, 0.6),
+      0 0 60px -20px rgba(110, 231, 183, 0.08);
+  }
+
+  .badge {
+    @apply inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/5 border border-white/10 text-sm font-medium backdrop-blur-sm;
+  }
+}
