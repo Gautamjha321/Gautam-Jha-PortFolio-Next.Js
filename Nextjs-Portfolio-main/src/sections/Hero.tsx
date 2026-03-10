@@ -163,7 +163,7 @@ export const HeroSection = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="mt-4 sm:mt-6 text-center text-white/60 text-sm sm:text-base md:text-lg max-w-xl mx-auto leading-relaxed"
           >
-            B.Tech student at Centurion University &amp; Web Dev Intern at VidHu EduTech.
+            B.Tech student at Centurion University &amp; 
             I build AI-powered SaaS products, LMS platforms, and full-stack apps with
             React, Next.js &amp; Node.js.
           </motion.p>

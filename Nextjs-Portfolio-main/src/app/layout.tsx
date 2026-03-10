@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     canonical: "https://gautam-jha.github.io",
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: "/gautam.png",
   },
 };
 
