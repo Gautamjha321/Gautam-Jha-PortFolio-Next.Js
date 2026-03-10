@@ -1,4 +1,4 @@
-# 🌟 Abdul Ahad's Portfolio 🚀
+# 🌟 Gautam Jha Portfolio 🚀
 
 Welcome to my **Next.js** portfolio! 🎨 This is where I showcase my skills, creativity, and projects as a **Frontend Web Developer**. Dive in and explore the magic of modern web development! ✨
 
@@ -28,15 +28,14 @@ Here's how the project is organized:
 
 ## 🌐 Live Demo
 Take a look at the live version of my portfolio:
-👉 [**ahad-devsite.netlify.app**](https://ahad-devsite.netlify.app)
+
 
 ---
 
 ## 💌 Contact Me
 I’d love to hear from you! Feel free to reach out for collaborations or inquiries:
 
-- 💼 **LinkedIn**: [AbdulAhad](https://www.linkedin.com/in/abdul-ahad-a08263273)
-- 🐙 **GitHub**: [AbdulAhad](https://github.com/ahad324)
+- 💼 *
 
 ---
 
